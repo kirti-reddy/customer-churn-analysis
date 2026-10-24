@@ -1,35 +1,53 @@
 # Customer Churn Analysis
 
 ## Project Overview
-Analyzed customer churn data using Oracle SQL and Python to identify patterns across customer segments.
+Customer churn is an important business problem because losing customers can affect revenue and long-term growth. This project analyzes customer data to identify churn patterns and understand the factors associated with customer churn.
 
-## Tools Used
-- Oracle SQL
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+The goal is to explore customer behavior, compare churn across different customer groups, and generate insights that can help businesses improve customer retention.
 
-## Key Findings
-- Customers analyzed with valid churn status: 490
-- Customers churned: 116
-- Overall churn rate: 23.67%
-- Highest churn by contract: Two Year (27.15%)
-- Highest churn by subscription: Standard (27.78%)
-- Highest named internet service churn: Cable (29.91%)
-- Highest churn by tenure: 25–48 months (28.57%)
-- Highest churn among named payment methods: UPI (28.71%)
+## Objectives
+- Analyze overall customer churn and retention.
+- Compare churn across contract and subscription types.
+- Examine churn by internet service, technical support, and payment method.
+- Explore the relationship between monthly charges, tenure, and churn.
+- Analyze monthly revenue by churn status.
+- Present findings in a clear, understandable format.
 
-## Data Quality Notes
-- Unknown/missing payment method: 15 customers, including 5 churned (33.33%).
-- Two Year contracts had the highest observed churn rate in this dataset. This does not prove that contract type causes churn.
+## Dataset
+The project uses a customer churn dataset containing customer information, subscription details, service usage, monthly charges, revenue, and churn status.
 
-## Project Workflow
-1. Loaded customer data into Oracle Database.
-2. Used SQL queries to calculate churn rates.
-3. Compared churn across customer segments.
-4. Created charts using Python, Pandas, and Matplotlib.
-5. Summarized findings and data quality considerations.
+## Tools and Technologies
+- **Python:** Data analysis in Jupyter Notebook.
+- **SQL (Oracle SQL):** Querying customer data and analyzing churn patterns.
+- **Jupyter Notebook:** Documenting and exploring the analysis.
+
+## Analysis Performed
+1. Overall customer churn analysis.
+2. Churn by contract type.
+3. Churn by subscription type.
+4. Churn by internet service.
+5. Churn by tenure group.
+6. Churn by technical support.
+7. Churn by payment method.
+8. Churn by monthly charge group.
+9. Monthly revenue comparison by churn status.
+10. Data quality checks for contract type and payment method.
+11. Customer churn distribution and churn-rate comparisons.
+
+## Key Business Questions
+- What proportion of customers have churned?
+- Which contract and subscription types show different churn rates?
+- How does churn vary by internet service and technical support?
+- Is churn associated with payment methods or monthly charges?
+- How does monthly revenue differ between churned and retained customers?
+
+## Repository Contents
+- `Customer_Churn_Analysis.ipynb` — notebook containing the analysis.
+- `Customer_Churn_Analysis.sql` — SQL queries for customer churn analysis.
+- `README.md` — project documentation.
 
 ## Conclusion
-The analysis identifies differences in observed churn rates across customer groups. These findings can help guide further investigation into customer retention.
+This project demonstrates how customer data can be analyzed using Python and SQL to understand churn patterns and investigate factors associated with customer retention. The analysis can support further investigation into customer behavior and retention strategies.
+
+
+Aspiring Data Analyst | SQL | Python | Data Analysis
